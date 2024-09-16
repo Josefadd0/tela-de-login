@@ -1,7 +1,7 @@
 h2 {
     color: white;
 }
-p {
+h3{
     color: white;
 }
 ul {
@@ -10,10 +10,13 @@ ul {
 body {
     background-color: black;
     background-image: url(imagens/photo-1552319704-41c50c38c26e.avif);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 button {
     padding: 10px;
-    align-self:auto;
+    position: absolute;
+    top: 20px;
+    left: 1700px;
     width: 160px;
     border-radius: 30px;
     background-image: linear-gradient(#256a8a, #3393c1);
@@ -24,3 +27,12 @@ button {
     color: white;
     text-transform: uppercase;
     font-weight: 700;
+}
+img {
+    position: absolute;
+    top: 200px;
+    left: 1300px;
+    width: 450px;
+    border-radius: 45px;
+    color: white;
+}
